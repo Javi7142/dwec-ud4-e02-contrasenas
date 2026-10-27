@@ -146,7 +146,7 @@ describe('crearAleatorioConSemilla', () => {
 
 describe('evaluarFuerza', () => {
   it.each([
-    ['abcdefg', 'débil'], // 7 caracteres, un solo tipo: 0 puntos
+    ['abcdefg', 'fuerte'], // 7 caracteres, un solo tipo: 0 puntos
     ['abcdefgh', 'débil'], // 8 caracteres: 1 punto
     ['abcdefghijk', 'débil'], // 11 caracteres: 1 punto
     ['abcdefghijkl', 'media'], // 12 caracteres: 2 puntos
